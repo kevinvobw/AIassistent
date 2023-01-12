@@ -82,7 +82,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server
 
-  const response = await fetch('http://0.0.0.0:4500', {
+  const response = await fetch('https://codex-kvo-server.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
